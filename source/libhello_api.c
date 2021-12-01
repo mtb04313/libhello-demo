@@ -40,11 +40,12 @@
 *******************************************************************************/
 
 #include "libhello_api.h"
+#include "world_api.h"
 
 /*-- Public Functions -------------------------------------------------*/
 
 bool test_me(void)
 {
-    return true;
+    return test_world();
 }
 
